@@ -1,5 +1,6 @@
 import React from "react";
 import Counter from "./components/Counter";
+import HooksCounter from "./components/HooksCounter";
 // import Stats from "./components/Stats";
 
 // const initialState = [
@@ -25,7 +26,8 @@ const App = () => {
       </h1>
 
       <div className="max-w-md mx-auto mt-10 space-y-5">
-        <Counter id="1" />
+        {/* <Counter id="1" /> */}
+        <HooksCounter />
         <div>
           {/* {state.map((counter) => (
           <Counter
