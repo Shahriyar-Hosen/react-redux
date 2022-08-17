@@ -5,7 +5,7 @@ import Button from "./Button";
 import Count from "./Count";
 
 const HooksCounter = () => {
-  const count = useSelector((state) => state.value);
+  const count = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
 
   const incrementHandler = () => {

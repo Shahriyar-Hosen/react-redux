@@ -1,5 +1,5 @@
 import React from "react";
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
 import DynamicCounter from "./components/DynamicCounter";
 import HooksCounter from "./components/HooksCounter";
 // import Stats from "./components/Stats";

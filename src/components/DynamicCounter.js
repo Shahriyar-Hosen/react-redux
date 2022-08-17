@@ -5,7 +5,7 @@ import Button from "./Button";
 import Count from "./Count";
 
 const DynamicCounter = ({ id }) => {
-  const count = useSelector((state) => state.value);
+  const count = useSelector((state) => state.dynamicCounter.value);
   const dispatch = useDispatch();
 
   const incrementHandler = (value) => {
