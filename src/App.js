@@ -2,6 +2,7 @@ import React from "react";
 // import Counter from "./components/Counter";
 import DynamicCounter from "./components/DynamicCounter";
 import HooksCounter from "./components/HooksCounter";
+import VariableCounter from "./components/VariableCounter";
 // import Stats from "./components/Stats";
 
 // const initialState = [
@@ -30,6 +31,8 @@ const App = () => {
         {/* <Counter id="1" /> */}
         <HooksCounter />
         <DynamicCounter />
+        <VariableCounter />
+        <VariableCounter dynamic />
         <div>
           {/* {state.map((counter) => (
           <Counter
