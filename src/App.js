@@ -1,5 +1,6 @@
 import React from "react";
 import Counter from "./components/Counter";
+import DynamicCounter from "./components/DynamicCounter";
 import HooksCounter from "./components/HooksCounter";
 // import Stats from "./components/Stats";
 
@@ -28,6 +29,7 @@ const App = () => {
       <div className="max-w-md mx-auto mt-10 space-y-5">
         {/* <Counter id="1" /> */}
         <HooksCounter />
+        <DynamicCounter />
         <div>
           {/* {state.map((counter) => (
           <Counter
