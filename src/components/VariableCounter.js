@@ -29,7 +29,7 @@ const VariableCounter = ({ count, increment, decrement }) => {
 
 // mapStateToProps() and mapDispatchToProps()
 const mapStateToProps = (state, ownProps) => {
-  console.log(ownProps.dynamic);
+  // console.log(ownProps.dynamic);
   return {
     count: ownProps.dynamic ? state.dynamicCounter.value : state.counter.value,
   };
